@@ -1,0 +1,201 @@
+
+
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #11999E;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+  padding-bottom: 10px;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+.resume{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 50px;
+  text-decoration: underline;
+  color: #11999E;
+}
+
+.secondpage{
+  position: absolute;
+  top: 70px;
+  left: 16px;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-image: url(../images/bg5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 674.7px;
+
+}
+
+.pro{
+  text-decoration: underline;
+  color: #841C26;
+}
+
+
+
+.middle-container{
+  margin: 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.profile{
+  padding-top: 50px;
+}
+
+
+.game{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-decoration: underline;
+
+}
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill0{
+  width: 25%;
+  float: left;
+  padding-right: 50px;
+}
+
+.skill1{
+  width: 25%;
+  float: right;
+  padding-left: 50px;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.hang{
+  padding-bottom: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4ed4ac;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b1e8d6;
+  background-image: -webkit-linear-gradient(top, #b1e8d6, #11deb8);
+  background-image: -moz-linear-gradient(top, #b1e8d6, #11deb8);
+  background-image: -ms-linear-gradient(top, #b1e8d6, #11deb8);
+  background-image: -o-linear-gradient(top, #b1e8d6, #11deb8);
+  background-image: linear-gradient(to bottom, #b1e8d6, #11deb8);
+  text-decoration: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+ padding: 20px;
+ font-size: 30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+ opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+ background: #3B5998;
+ color: white;
+}
+
+/* Twitter */
+.fa-linkedin{
+
+   background: #007bb5;
+   color: white;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
